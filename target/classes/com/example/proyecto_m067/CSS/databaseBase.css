@@ -1,0 +1,100 @@
+#borderPanePadre{
+    -fx-spacing: 10;/*espacio entre elementos*/
+    -fx-background-color:black;
+}
+
+#paneMiddle{
+    -fx-background-color: #c3d3d2;
+    -fx-pref-height:500;
+    -fx-pref-width:700;
+}
+
+/*-------------------*/
+/*elementos del medio*/
+
+
+#tituloSuperior{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Georgia';
+}
+
+
+#fillInfoTxt{
+    -fx-font-size: 14px;
+    -fx-font-family:'Times New Roman';
+}
+
+#botonErase, #botonConsulta{
+    -fx-pref-width:80;
+    -fx-pref-height:30;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+
+    -fx-background-color: #ECF9F8;
+    -fx-border-color:#3B415A;
+}
+
+#nameInsertSQLPalabra, #ageInsertSQLPalabra,
+#nameDeleteSQLPalabra, #nameConsultOneSQLPalabra,
+#titleConsultOneSQLPalabra, #titleDeleteSQLPalabra,
+#titleInsertSQLPalabra, #synopsisInsertSQLPalabra{
+    -fx-font-family:'Georgia';
+    -fx-font-size: 15px;
+}
+
+/*----------------------------------*/
+#vboxLeft{
+    -fx-spacing: 10;
+    -fx-background-color: #9fb0ad;
+    -fx-pref-height:140;
+    -fx-pref-width:150;
+
+    -fx-border-color: #1d2327;
+    -fx-border-width: .5;
+}
+/*GRID IZQ*/
+#gridElementosIzq{
+    -fx-spacing: 10;
+}
+
+#botonDB_Movies, #botonDB_Author{
+    -fx-pref-width:100;
+    -fx-pref-height:100;
+    -fx-background-color: transparent;
+}
+#textoTabla{
+    -fx-text-fill: #191e24;
+    -fx-font-style: italic;
+    -fx-font-size: 14px;
+
+}
+
+#tablaPalabra{
+    -fx-font-size: 14px;
+    -fx-underline: true;
+    -fx-font-family: 'Courier New';
+}
+/*-----------------------------------*/
+/*abajo*/
+#hboxBottom{
+    -fx-background-color: #749193;
+    -fx-pref-height:130;
+    -fx-pref-width:200;
+    -fx-padding:7px;
+    -fx-border-color: #1d2327;
+    -fx-border-width: .5;
+}
+
+#botonInferior{
+    -fx-pref-width:130;
+    -fx-pref-height:50;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+
+    -fx-alignment:center;
+     -fx-font-family: 'Verdana';
+
+}
+
+

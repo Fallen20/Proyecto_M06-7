@@ -1,0 +1,29 @@
+
+#vboxConsONEPadre{
+    -fx-pref-weight:530;
+    -fx-pref-height:840;
+}
+
+#resultsPalabra{
+    -fx-font-size:23px;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Times New Roman';
+}
+
+#closeResultButton{
+
+    -fx-pref-width:100;
+    -fx-pref-height:50;
+    -fx-background-color:transparent;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+
+    -fx-border-width: 2px;
+    -fx-border-color: #83A5D5;
+}
+
+#idConsult1,#SynopsisAge, #TitleName {
+    -fx-font-size:16px;
+    -fx-font-family: 'Times New Roman';
+    -fx-font-style: italic;
+}

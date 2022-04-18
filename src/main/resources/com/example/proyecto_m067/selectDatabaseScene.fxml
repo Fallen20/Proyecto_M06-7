@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="panePadre" prefHeight="280.0" prefWidth="364.0" stylesheets="@CSS/inicioStyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto_m067.Controllers.SelectDBController">
+   <children>
+      <VBox fx:id="vboxBG" prefHeight="280.0" prefWidth="364.0">
+         <children>
+            <Text fx:id="selectInit" fill="#252231" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a database:" textAlignment="CENTER" wrappingWidth="800.0">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin></Text>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <HBox fx:id="paneDivisor" prefHeight="200.0" prefWidth="364.0">
+                     <children>
+                        <Pane id="paneIzq" fx:id="paneIzq" prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Pane fx:id="paneIzqBG" prefHeight="390.0" prefWidth="390.0" />
+                              <BorderPane fx:id="border1" prefHeight="200.0" prefWidth="200.0">
+                                 <center>
+                                    <Group>
+                                       <children>
+                                          <ImageView fx:id="sqlLogo" fitHeight="150.0" fitWidth="300.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                                             <image>
+                                                <Image url="@imagenes/mySqlLogo.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Group>
+                                 </center>
+                              </BorderPane>
+                              <Button fx:id="botonIzq" mnemonicParsing="false" onAction="#selectedSQL" />
+                           </children>
+                        </Pane>
+                        <Pane id="paneDer" fx:id="paneDer" prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Pane fx:id="paneDerBG" prefHeight="390.0" prefWidth="390.0" />
+                              <BorderPane fx:id="border2" prefHeight="200.0" prefWidth="200.0">
+                                 <center>
+                                    <ImageView fx:id="mongoLogo" fitHeight="199.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                                       <image>
+                                          <Image url="@imagenes/MongoDB-Logo.png" />
+                                       </image>
+                                    </ImageView>
+                                 </center>
+                              </BorderPane>
+                              <Button fx:id="botonDer1" mnemonicParsing="false" onAction="#selectedMango" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</Pane>
