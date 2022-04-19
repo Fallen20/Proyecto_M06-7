@@ -7,8 +7,6 @@
 
 #closeResultButton{
 
-    -fx-pref-width:100;
-    -fx-pref-height:50;
     -fx-background-color:transparent;
     -fx-background-radius: 20px;
     -fx-border-radius: 20px;

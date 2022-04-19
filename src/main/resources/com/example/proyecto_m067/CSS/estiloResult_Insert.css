@@ -7,10 +7,6 @@
     -fx-font-weight: bold;
     -fx-font-family: 'Times New Roman';
 }
-#resultDataSQLInsert{}
-
-#dataIntrducedPalabra{}
-
 #idPalabra, #nameTitlePalabra, #synopsis_Age{
     -fx-font-size:16px;
     -fx-font-family: 'Times New Roman';
@@ -30,8 +26,6 @@
 
 #closeResultButton{
 
-    -fx-pref-width:100;
-    -fx-pref-height:50;
     -fx-background-color:transparent;
     -fx-background-radius: 20px;
     -fx-border-radius: 20px;
