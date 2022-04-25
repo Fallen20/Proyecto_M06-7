@@ -88,7 +88,8 @@ public class ControllerConsultONE implements Initializable{
                 if(actor.getName_actor()!=null){titleConsultONE.setText(actor.getName_actor());}
                 else{titleConsultONE.setText("NULL");}
 
-                synopsisConsultONE.setText(String.valueOf(actor.getAge()));
+                if(actor.getAge()==0){synopsisConsultONE.setText(String.valueOf(actor.getAge()));}
+                else{synopsisConsultONE.setText("NULL");}
 
             }
         }

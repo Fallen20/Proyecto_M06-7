@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="vboxInserrPadre" alignment="CENTER" prefHeight="840.0" prefWidth="530.0" spacing="30.0" stylesheets="@CSS/estiloResult_Insert.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto_m067.Controllers.ControllerInsert">
+   <children>
+      <Text fx:id="resultsPalabra" strokeType="OUTSIDE" strokeWidth="0.0" text="Results:" textAlignment="CENTER" wrappingWidth="530.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Text>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <Text fx:id="dataIntrducedPalabra" strokeType="OUTSIDE" strokeWidth="0.0" text="Data introduced status:">
+               <font>
+                  <Font size="16.0" />
+               </font></Text>
+            <Text fx:id="resultDataSQLInsert" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+               <font>
+                  <Font size="16.0" />
+               </font></Text>
+         </children>
+      </HBox>
+      <VBox fx:id="vboxDatos" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+         <children>
+            <HBox prefHeight="13.0" prefWidth="364.0">
+               <children>
+                  <Text fx:id="idPalabra" strokeType="OUTSIDE" strokeWidth="0.0" text="Id:" wrappingWidth="100.0">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="idSQLInsert" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+               </children>
+            </HBox>
+            <HBox prefHeight="13.0" prefWidth="364.0">
+               <children>
+                  <Text fx:id="nameTitlePalabra" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" wrappingWidth="100.0">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nameSQLInsert" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+               </children>
+            </HBox>
+            <HBox prefHeight="13.0" prefWidth="364.0">
+               <children>
+                  <Text fx:id="synopsis_Age" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" wrappingWidth="100.0">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="synopsisSQLInsert" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="428.359375" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="closeResultButton" mnemonicParsing="false" onAction="#closeStage" text="Close window" />
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</VBox>

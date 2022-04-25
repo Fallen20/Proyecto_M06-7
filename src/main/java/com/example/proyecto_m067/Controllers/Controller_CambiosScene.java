@@ -63,7 +63,7 @@ public class Controller_CambiosScene {
                 FXMLLoader fxmlLoaderInsert2 = new FXMLLoader(OpenApplication.class.getResource("Actor_Insert_SQL.fxml"));
                 sceneOriginal = new Scene(fxmlLoaderInsert2.load(), 840, 530);
 
-                OpenApplication.stageOriginal.setTitle("Insert database");
+                OpenApplication.stageOriginal.setTitle("SQL database");
                 OpenApplication.stageOriginal.setScene(sceneOriginal);
                 OpenApplication.stageOriginal.show();
 
@@ -79,7 +79,7 @@ public class Controller_CambiosScene {
                     FXMLLoader fxmlLoaderInsert2 = new FXMLLoader(OpenApplication.class.getResource("Actor_Insert_SQL.fxml"));
                     sceneOriginal = new Scene(fxmlLoaderInsert2.load(), 840, 530);
 
-                    OpenApplication.stageOriginal.setTitle("Insert database");
+                    OpenApplication.stageOriginal.setTitle("SQL database");
                     OpenApplication.stageOriginal.setScene(sceneOriginal);
                     OpenApplication.stageOriginal.show();
 
@@ -95,7 +95,7 @@ public class Controller_CambiosScene {
                     FXMLLoader fxmlLoaderDelete = new FXMLLoader(OpenApplication.class.getResource("Actor_Delete.fxml"));
                     sceneOriginal = new Scene(fxmlLoaderDelete.load(), 840, 530);
 
-                    OpenApplication.stageOriginal.setTitle("Delete database");
+                    OpenApplication.stageOriginal.setTitle("SQL database");
                     OpenApplication.stageOriginal.setScene(sceneOriginal);
                     OpenApplication.stageOriginal.show();
 
@@ -111,7 +111,7 @@ public class Controller_CambiosScene {
                     FXMLLoader fxmlLoaderDelete = new FXMLLoader(OpenApplication.class.getResource("DeleteALL_SQL.fxml"));
                     sceneOriginal = new Scene(fxmlLoaderDelete.load(), 840, 530);
 
-                    OpenApplication.stageOriginal.setTitle("Delete all database");
+                    OpenApplication.stageOriginal.setTitle("SQL database");
                     OpenApplication.stageOriginal.setScene(sceneOriginal);
                     OpenApplication.stageOriginal.show();
 
@@ -126,7 +126,7 @@ public class Controller_CambiosScene {
                     FXMLLoader fxmlLoaderConsult1 = new FXMLLoader(OpenApplication.class.getResource("ConsultALL_SQL.fxml"));
                     sceneOriginal = new Scene(fxmlLoaderConsult1.load(), 840, 530);
 
-                    OpenApplication.stageOriginal.setTitle("Consult all database");
+                    OpenApplication.stageOriginal.setTitle("SQL database");
                     OpenApplication.stageOriginal.setScene(sceneOriginal);
                     OpenApplication.stageOriginal.show();
 
@@ -139,7 +139,7 @@ public class Controller_CambiosScene {
                 try {
                     FXMLLoader fxmlLoaderConsult1 = new FXMLLoader(OpenApplication.class.getResource("Actor_ConsultONE.fxml"));
                     sceneOriginal = new Scene(fxmlLoaderConsult1.load(), 840, 530);
-                    OpenApplication.stageOriginal.setTitle("Consult one database");
+                    OpenApplication.stageOriginal.setTitle("SQL database");
                     OpenApplication.stageOriginal.setScene(sceneOriginal);
                     OpenApplication.stageOriginal.show();
 
@@ -166,7 +166,7 @@ public class Controller_CambiosScene {
                 FXMLLoader fxmlLoaderInsert2 = new FXMLLoader(OpenApplication.class.getResource("Movies_Insert_SQL.fxml"));
                  sceneOriginal = new Scene(fxmlLoaderInsert2.load(), 840, 530);
 
-                OpenApplication.stageOriginal.setTitle("Insert database");
+                OpenApplication.stageOriginal.setTitle("SQL database");
                 OpenApplication.stageOriginal.setScene(sceneOriginal);
                 OpenApplication.stageOriginal.show();
 
@@ -182,7 +182,7 @@ public class Controller_CambiosScene {
                 FXMLLoader fxmlLoaderDelete = new FXMLLoader(OpenApplication.class.getResource("Movies_Delete.fxml"));
                  sceneOriginal = new Scene(fxmlLoaderDelete.load(), 840, 530);
 
-                OpenApplication.stageOriginal.setTitle("Delete one database");
+                OpenApplication.stageOriginal.setTitle("SQL database");
                 OpenApplication.stageOriginal.setScene(sceneOriginal);
                 OpenApplication.stageOriginal.show();
 
@@ -198,7 +198,7 @@ public class Controller_CambiosScene {
                 FXMLLoader fxmlLoaderDelete = new FXMLLoader(OpenApplication.class.getResource("DeleteALL_SQL.fxml"));
                 sceneOriginal = new Scene(fxmlLoaderDelete.load(), 840, 530);
 
-                OpenApplication.stageOriginal.setTitle("Delete all database");
+                OpenApplication.stageOriginal.setTitle("SQL database");
                 OpenApplication.stageOriginal.setScene(sceneOriginal);
                 OpenApplication.stageOriginal.show();
 
@@ -213,7 +213,7 @@ public class Controller_CambiosScene {
                 FXMLLoader fxmlLoaderConsult1 = new FXMLLoader(OpenApplication.class.getResource("ConsultALL_SQL.fxml"));
                 sceneOriginal = new Scene(fxmlLoaderConsult1.load(), 840, 530);
 
-                OpenApplication.stageOriginal.setTitle("Consult all database");
+                OpenApplication.stageOriginal.setTitle("SQL database");
                 OpenApplication.stageOriginal.setScene(sceneOriginal);
                 OpenApplication.stageOriginal.show();
 
@@ -227,7 +227,7 @@ public class Controller_CambiosScene {
                 FXMLLoader fxmlLoaderConsult1 = new FXMLLoader(OpenApplication.class.getResource("Movies_ConsultONE.fxml"));
                  sceneOriginal = new Scene(fxmlLoaderConsult1.load(), 840, 530);
 
-                OpenApplication.stageOriginal.setTitle("Consult one database");
+                OpenApplication.stageOriginal.setTitle("SQL database");
                 OpenApplication.stageOriginal.setScene(sceneOriginal);
                 OpenApplication.stageOriginal.show();
 
@@ -251,7 +251,7 @@ public class Controller_CambiosScene {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader(OpenApplication.class.getResource("Movies_Insert_SQL.fxml"));
                 sceneOriginal = new Scene(fxmlLoader.load(), 840, 530);
-                OpenApplication.stageOriginal.setTitle("Insert database");
+                OpenApplication.stageOriginal.setTitle("SQL database");
 
                 OpenApplication.stageOriginal.setMaxHeight(530);
                 OpenApplication.stageOriginal.setMaxWidth(840);
@@ -267,7 +267,7 @@ public class Controller_CambiosScene {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader(OpenApplication.class.getResource("Actor_Insert_SQL.fxml"));
                 sceneOriginal = new Scene(fxmlLoader.load(), 840, 530);
-                OpenApplication.stageOriginal.setTitle("Insert database");
+                OpenApplication.stageOriginal.setTitle("SQL database");
 
                 OpenApplication.stageOriginal.setMaxHeight(530);
                 OpenApplication.stageOriginal.setMaxWidth(840);
@@ -285,7 +285,7 @@ public class Controller_CambiosScene {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader(OpenApplication.class.getResource("Actor_Delete.fxml"));
                 sceneOriginal = new Scene(fxmlLoader.load(), 840, 530);
-                OpenApplication.stageOriginal.setTitle("Delete one database");
+                OpenApplication.stageOriginal.setTitle("SQL database");
 
                 OpenApplication.stageOriginal.setMaxHeight(530);
                 OpenApplication.stageOriginal.setMaxWidth(840);
@@ -300,7 +300,7 @@ public class Controller_CambiosScene {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader(OpenApplication.class.getResource("Movies_Delete.fxml"));
                 sceneOriginal = new Scene(fxmlLoader.load(), 840, 530);
-                OpenApplication.stageOriginal.setTitle("Delete one database");
+                OpenApplication.stageOriginal.setTitle("SQL database");
 
                 OpenApplication.stageOriginal.setMaxHeight(530);
                 OpenApplication.stageOriginal.setMaxWidth(840);
@@ -323,7 +323,7 @@ public class Controller_CambiosScene {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(OpenApplication.class.getResource("DeleteALL_SQL.fxml"));
             sceneOriginal = new Scene(fxmlLoader.load(), 840, 530);
-            OpenApplication.stageOriginal.setTitle("Delete all database");
+            OpenApplication.stageOriginal.setTitle("SQL database");
 
             OpenApplication.stageOriginal.setMaxHeight(530);
             OpenApplication.stageOriginal.setMaxWidth(840);
@@ -341,7 +341,7 @@ public class Controller_CambiosScene {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(OpenApplication.class.getResource("ConsultALL_SQL.fxml"));
              sceneOriginal = new Scene(fxmlLoader.load(), 840, 530);
-            OpenApplication.stageOriginal.setTitle("Consult all database");
+            OpenApplication.stageOriginal.setTitle("SQL database");
 
             OpenApplication.stageOriginal.setMaxHeight(530);
             OpenApplication.stageOriginal.setMaxWidth(840);
@@ -360,7 +360,7 @@ public class Controller_CambiosScene {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader(OpenApplication.class.getResource("Actor_ConsultONE.fxml"));
                 sceneOriginal = new Scene(fxmlLoader.load(), 840, 530);
-                OpenApplication.stageOriginal.setTitle("Consult one database");
+                OpenApplication.stageOriginal.setTitle("SQL database");
 
 
                 OpenApplication.stageOriginal.setMaxHeight(530);
@@ -376,7 +376,7 @@ public class Controller_CambiosScene {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader(OpenApplication.class.getResource("Movies_ConsultONE.fxml"));
                 sceneOriginal = new Scene(fxmlLoader.load(), 840, 530);
-                OpenApplication.stageOriginal.setTitle("Consult one database");
+                OpenApplication.stageOriginal.setTitle("SQL database");
 
 
                 OpenApplication.stageOriginal.setMaxHeight(530);
@@ -406,7 +406,7 @@ public class Controller_CambiosScene {
                 try {
 
                     FXMLLoader fxmlLoaderInsert = new FXMLLoader(OpenApplication.class.getResource("results_SQLInsert.fxml"));
-                    Scene scene = new Scene(fxmlLoaderInsert.load(), 450,300);
+                    Scene scene = new Scene(fxmlLoaderInsert.load(), 840, 530);
 
 
                     ControllerInsert controllerInsert=fxmlLoaderInsert.getController();
@@ -435,10 +435,9 @@ public class Controller_CambiosScene {
             if(Variables.aHacer == Constants.INSERT){
                 try {
                     FXMLLoader fxmlLoaderInsert2 = new FXMLLoader(OpenApplication.class.getResource("results_SQLInsert.fxml"));
-                    Scene scene = new Scene(fxmlLoaderInsert2.load(), 700,300);
+                    Scene scene = new Scene(fxmlLoaderInsert2.load(), 840, 530);
 
                     ControllerInsert controller=fxmlLoaderInsert2.getController();
-
                     if(Variables.tablaSeleccionada==TableConstants.MOVIE){
                         controller.recuperarDatosInsert(titleInsertSQL.getText(), synopsisInsertSQL.getText(),null);
                     }
@@ -464,7 +463,7 @@ public class Controller_CambiosScene {
                 try {
                     Stage stage=new Stage();
                     FXMLLoader fxmlLoaderDelete = new FXMLLoader(OpenApplication.class.getResource("results_Delete.fxml"));
-                    Scene scene = new Scene(fxmlLoaderDelete.load(), 450,300);
+                    Scene scene = new Scene(fxmlLoaderDelete.load(), 840, 530);
 
 
                     ControllerDeletes controller=fxmlLoaderDelete.getController();
@@ -494,7 +493,7 @@ public class Controller_CambiosScene {
             else if(Variables.aHacer == Constants.CONSULT_ALL){
                 try {
                     FXMLLoader fxmlLoaderConsult1 = new FXMLLoader(OpenApplication.class.getResource("results_ConsultALL_SQL_Movies.fxml"));
-                    Scene scene = new Scene(fxmlLoaderConsult1.load(), 450,300);
+                    Scene scene = new Scene(fxmlLoaderConsult1.load(), 840, 530);
 
                     ControllerConsultALL controller=fxmlLoaderConsult1.getController();
                     controller.recuperarDatosConsult();
@@ -512,7 +511,7 @@ public class Controller_CambiosScene {
             else if(Variables.aHacer == Constants.CONSULT_ONE){
                 try {
                     FXMLLoader fxmlLoaderConsult1 = new FXMLLoader(OpenApplication.class.getResource("results_ConsultONE_SQL_Movies.fxml"));
-                    Scene scene = new Scene(fxmlLoaderConsult1.load(), 450,300);
+                    Scene scene = new Scene(fxmlLoaderConsult1.load(), 840, 530);
 
                     ControllerConsultONE controller=fxmlLoaderConsult1.getController();
                     if(Variables.tablaSeleccionada==TableConstants.ACTOR){

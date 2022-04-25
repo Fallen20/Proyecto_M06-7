@@ -1,3 +1,10 @@
+CREATE TABLE users (
+     id_User MEDIUMINT NOT NULL AUTO_INCREMENT,
+     username CHAR(255) NOT NULL,
+     password text,
+     PRIMARY KEY (id_User)
+);
+
 CREATE TABLE movies (
      id MEDIUMINT NOT NULL AUTO_INCREMENT,
      title CHAR(255) NOT NULL,

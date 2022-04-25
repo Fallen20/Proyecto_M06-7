@@ -16,9 +16,9 @@ public class OpenApplication extends Application {
     public void start(Stage stage) throws IOException {
         stageOriginal=stage;
 
-        FXMLLoader fxmlLoader = new FXMLLoader(OpenApplication.class.getResource("selectDatabaseScene.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 840, 530);
-        stageOriginal.setTitle("Selection of database");
+        FXMLLoader fxmlLoader = new FXMLLoader(OpenApplication.class.getResource("login.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(),450,280);
+        stageOriginal.setTitle("Enter your credentials");
 
         stageOriginal.setMaxHeight(530);
         stageOriginal.setMaxWidth(840);

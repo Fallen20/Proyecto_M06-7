@@ -89,13 +89,12 @@ public class ControllerInsert implements Initializable{
                             pelicula.setSynopsis(result.getSynopsis());
                             return;//salir
                         });
-                        System.out.println(pelicula.getSynopsis());
 
                         nameSQLInsert.setText(pelicula.getTitle());
                         idSQLInsert.setText(pelicula.getIdSQL());
 
-                        if(synopsis==null || synopsis.equals("")){synopsisSQLInsert.setText("NULL");}
-                        else{synopsisSQLInsert.setText(pelicula.getSynopsis());}
+                        if(synopsis==null || synopsis.equals("")){synopsisSQLInsert.setText(pelicula.getSynopsis());}
+                        else{synopsisSQLInsert.setText("null");}
 
                     }
                     else{
@@ -195,8 +194,8 @@ public class ControllerInsert implements Initializable{
                         nameSQLInsert.setText(pelicula.getTitle());
                         idSQLInsert.setText(String.valueOf(pelicula.getIdMongo()));
 
-                        if(synopsis==null || synopsis.equals("")){synopsisSQLInsert.setText("NULL");}
-                        else{synopsisSQLInsert.setText(pelicula.getSynopsis());}
+                        if(synopsis==null || synopsis.equals("")){synopsisSQLInsert.setText(pelicula.getSynopsis());}
+                        else{synopsisSQLInsert.setText("null");}
 
                     }
                     else{
@@ -232,10 +231,7 @@ public class ControllerInsert implements Initializable{
                             actor.setAge(result.getAge());
                             actor.setIdMongo(result.getIdMongo());
                             actor.setName_actor(result.getName_actor());
-                            return;
                         });
-
-
 
                         idSQLInsert.setText(String.valueOf(actor.getIdMongo()));
                         nameSQLInsert.setText(actor.getName_actor());

@@ -15,7 +15,6 @@ public class DatabaseMethods_SQL extends DatabasePadre {
 
 
             //INSERT
-
             PreparedStatement statement;
 
             if(!synopsis.equalsIgnoreCase("") || synopsis!=null){//si no es nulo
